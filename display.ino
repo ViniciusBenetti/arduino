@@ -12,10 +12,10 @@ int lcdRows = 2;
 int estadoBotaoAnterior = HIGH;
 LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);
 const int botaoPin = 18;
-char ssid[] = "FAMILIABENETTI_2G";
-char password[] = "Gabi120500";
+char ssid[] = "secret";
+char password[] = "secret";
 String GOOGLE_SCRIPT_ID =
-"AKfycbzo6-ElhqetF2pnCwFAUjKWZWDLnBJWyG_tG1wL3IYxVhYqIKyjmfaz_ZNudS4G1IUM";
+"secret";
 const String frasesDoDia[] = {
   "Ame a vida.",
   "Seja gentil.",
