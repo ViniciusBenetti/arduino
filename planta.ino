@@ -1,15 +1,15 @@
 
-#define BLYNK_TEMPLATE_ID "TMPL2XwXeDFSl"
-#define BLYNK_TEMPLATE_NAME "MinhaPlanta"
-#define BLYNK_AUTH_TOKEN "fHXqODOatDDc717b1HILWMg-K6TIioZ7"
+#define BLYNK_TEMPLATE_ID "secret"
+#define BLYNK_TEMPLATE_NAME "secret"
+#define BLYNK_AUTH_TOKEN "secret"
 #define BYNK_PRINT Serial
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "FAMILIABENETTI_2G";
-char pass[] = "Gabi120500";
+char ssid[] = "secret";
+char pass[] = "secret";
 
 const int pino = 35;
 const int limiteSuperior = 3500;
