@@ -8,8 +8,8 @@ int lcdColumns = 16;
 int lcdRows = 2;
 LiquidCrystal_I2C lcd(0x27, lcdColumns, lcdRows);
 
-char ssid[] = "FAMILIABENETTI_2G";
-char password[] = "Gabi120500";
+char ssid[] = "secret";
+char password[] = "secret";
 
 void setup() {
   lcd.init();
